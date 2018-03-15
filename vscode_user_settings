@@ -1,0 +1,51 @@
+{
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "Plastic",
+    "workbench.editor.enablePreview": false,
+    "editor.fontFamily": "Hack-Regular",
+    "editor.fontSize": 14,
+    "sublimeTextKeymap.promptV3Features": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.snippetSuggestions": "top",
+    "editor.formatOnPaste": true,
+    "workbench.fontAliasing": "antialiased",
+    "editor.tabCompletion": true,
+    "editor.formatOnSave": true,
+    "editor.minimap.enabled": false,
+    "workbench.statusBar.feedback.visible": false,
+    "explorer.openEditors.visible": 0,
+    "workbench.activityBar.visible": false,
+    "workbench.statusBar.visible": false,
+    "eslint.enable": true, //Enable eslint
+    "eslint.options": {
+        "extensions": [ //List of file extensions to activate eslint
+            ".html",
+            ".js",
+            ".vue",
+            ".jsx"
+        ]
+    },
+    "eslint.validate": [
+        { //list of extensions to validate
+            "language": "html",
+            "autoFix": true
+        },
+        {
+            "language": "vue",
+            "autoFix": true //Autofix any fixable errors when linting
+        },
+        {
+            "language": "javascript",
+            "autoFix": true
+        },
+        {
+            "language": "javascriptreact",
+            "autoFix": true
+        }
+    ],
+    // Run the linter on save (onSave) or on type (onType)
+    "eslint.run": "onSave",
+    "eslint.autoFixOnSave": true, //Autofix any fixable errors when linting
+    "jumpy.wordRegexp": "\\w{2,}",
+    "jumpy.lineRegexp": "^\\s*$"
+}
