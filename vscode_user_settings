@@ -1,21 +1,21 @@
 {
     "workbench.iconTheme": "vscode-icons",
-    "workbench.colorTheme": "Plastic",
+    "workbench.colorTheme": "Vue Theme",
     "workbench.editor.enablePreview": false,
-    "editor.fontFamily": "Hack-Regular",
-    "editor.fontSize": 14,
+    "editor.fontFamily": "Operator Mono, Consolas, 'Courier New', monospace",
+    "editor.fontSize": 15,
     "sublimeTextKeymap.promptV3Features": true,
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.snippetSuggestions": "top",
     "editor.formatOnPaste": true,
-    "workbench.fontAliasing": "antialiased",
+    "workbench.fontAliasing": "auto",
     "editor.tabCompletion": true,
     "editor.formatOnSave": true,
     "editor.minimap.enabled": false,
     "workbench.statusBar.feedback.visible": false,
     "explorer.openEditors.visible": 0,
     "workbench.activityBar.visible": false,
-    "workbench.statusBar.visible": false,
+    "workbench.statusBar.visible": true,
     "eslint.enable": true, //Enable eslint
     "eslint.options": {
         "extensions": [ //List of file extensions to activate eslint
@@ -45,7 +45,26 @@
     ],
     // Run the linter on save (onSave) or on type (onType)
     "eslint.run": "onSave",
-    "eslint.autoFixOnSave": true, //Autofix any fixable errors when linting
+    "eslint.autoFixOnSave": true,
+    "jumpy.lineRegexp": "^\\s*$",
     "jumpy.wordRegexp": "\\w{2,}",
-    "jumpy.lineRegexp": "^\\s*$"
+    "editor.fontLigatures": true,
+    "bracketPairColorizer.activeScopeCSS": [
+        "borderStyle : solid",
+        "borderWidth : 1px",
+        "borderColor : {color}",
+        "backgroundColor : #fafafa"
+    ],
+    "bracketPairColorizer.highlightActiveScope": true,
+    "editor.matchBrackets": false,
+    "php-cs-fixer.onsave": true,
+    "php-cs-fixer.config": "/Users/ironman/.vscode/.php_cs",
+    "prettier.eslintIntegration": true,
+    "prettier.tabWidth": 2,
+    "php.suggest.basic": false,
+    "intelephense.debug.enable": true,
+    "files.associations": {
+        "*.php": "php"
+    },
+    "vsicons.projectDetection.disableDetect": true,
 }
